@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
 if __name__ == "__main__":
     prefix = "try_"
-    filenames = ['requests', 'json', 'subprocess', 'pymysql', 'redis', 'pymongo']
+    filenames = ['requests', 'json', 'subprocess', 'pymysql', 'redis', 'pymongo', 'argparse', 'sh', 'os', 'sys', 'time', 'itertools', 'functools', 'collections', 'multiprocessing', 'logging', 'threading', 'paramiko', 'selenium', 'lxml', 'pycurl', 'numpy', 'scipy', 'matplotlib', 'pandas']
     splitext = ".py"
     for filename in filenames:
         run(prefix + filename + splitext)
